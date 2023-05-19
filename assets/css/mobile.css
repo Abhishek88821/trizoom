@@ -328,6 +328,20 @@
         flex-direction: column-reverse;
     }
 
+    .hea-div, .hea-div-box {
+        display: none;
+    }
+
+    .get-started {
+        background: var(--secondary);
+        color: #fff;
+        font-family: var(--fontH)!important;
+        padding: 20px 40px;
+        font-weight: 500;
+        margin-left: 15px;
+        font-size: 16px!important;
+    }
+
     .menu-div .menu-div-icon i {
         color: #232636;
         font-size: 30px;
@@ -549,11 +563,11 @@
     }
 
     .get-started {
-        color: #fff;
-        background: var(--primary);
-        padding: 12px 20px;
-        margin-left: 14px;
-        font-size: 16px;
+        display: none;
+    }
+
+    .menu-div {
+        margin-right: 5px;
     }
 
     .nav-div-img {
