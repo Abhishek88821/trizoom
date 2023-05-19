@@ -926,17 +926,6 @@ z-index: 1;
 
 /* menu start */
 @media only screen and (max-width: 991px) {
-html.hc-nav-yscroll {
-    overflow-y: scroll;
-}
-
-body.hc-nav-open {
-    overflow: visible;
-    position: fixed;
-    width: 100%;
-    min-height: 100%;
-}
-
 .hc-offcanvas-nav {
     visibility: hidden;
     display: none;
@@ -1284,8 +1273,7 @@ background-image: linear-gradient(45deg, #0e1928, #192a43);
     text-align: left;
 }
 
-    .hc-offcanvas-nav li.nav-close a,
-    .hc-offcanvas-nav li.nav-back a {
+    .hc-offcanvas-nav li.nav-close a, .hc-offcanvas-nav li.nav-back a {
         background: #bb0045;
     }
 
@@ -1426,11 +1414,6 @@ background-image: linear-gradient(45deg, #0e1928, #192a43);
 .hc-offcanvas-nav.nav-levels-expand .nav-container ul ul .nav-item,
 .hc-offcanvas-nav.nav-levels-none .nav-container ul ul .nav-item {
     font-size: 14px;
-}
-
-.hc-offcanvas-nav.nav-levels-expand .nav-container li,
-.hc-offcanvas-nav.nav-levels-none .nav-container li {
-    transition:var(--ts);
 }
 
     .hc-offcanvas-nav.nav-levels-expand .nav-container li.level-open,

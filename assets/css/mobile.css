@@ -558,8 +558,9 @@
     }
 
     .menu-div .menu-div-icon i {
-        color: #232636;
-        font-size: 30px;
+        color: #323542;
+        font-size: 36px;
+        margin-right: 10px;
     }
 
     .get-started {
@@ -573,7 +574,7 @@
     .nav-div-img {
         width: 70px;
         padding: 12px 0;
-        margin-left: 0;
+        margin-left: 10px;
     }
 
     .abt-div-img  {
@@ -590,7 +591,7 @@
 
     .sli-div-box {
         width: 100%;
-        top: 65px;
+        top: 58px;
     }
 
     .sli-div-cnt > span {
@@ -599,8 +600,8 @@
     }
 
     .scroll-element-icon > a {
-        width: 13px;
-        margin: -48px auto 0;
+        width: 18px;
+        margin: -65px auto 0;
     }
 
     .abt-lnk {
@@ -608,9 +609,9 @@
     }
 
     .sli-div-cnt h2 {
-        font-size: 25px;
+        font-size: 30px;
         padding: 0 10px;
-        line-height: 32px;
+        line-height: 38px;
     }
 
     #sli-div-box .carousel-item {
@@ -705,4 +706,9 @@
     }
 
     
+}
+@media only screen and (max-width: 340px) {
+    .scroll-element-icon {
+        display: none;
+    }
 }
