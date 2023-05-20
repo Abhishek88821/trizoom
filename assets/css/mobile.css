@@ -5,6 +5,10 @@
     }
     #sli-div-box .carousel-item {
         height: 840px;
+ 
+    }
+       #sli-div-box .carousel-item > img {
+        height: 100%;
     }
 }
 
