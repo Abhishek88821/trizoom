@@ -12,11 +12,21 @@
     }
 }
 
+@media only screen and (min-width: 1201px) {
+    .hc-offcanvas-nav.hc-nav-1 {
+        display: none;
+    }   
+}
+
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
     .sli-div::before, #sli-div-box .carousel-item > img, #sli-div {
         height: 700px;
         object-fit: cover;
         object-position: center center;
+    }
+    
+    .hc-offcanvas-nav.hc-nav-1 {
+        display: none;
     }
     
     #sli-div-box .carousel-item {
