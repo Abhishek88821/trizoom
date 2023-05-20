@@ -14,7 +14,7 @@
 
 @media only screen and (min-width: 1201px) {
     .hc-offcanvas-nav.hc-nav-1 {
-        display: none;
+        display: none!important;
     }   
 }
 
@@ -26,7 +26,7 @@
     }
     
     .hc-offcanvas-nav.hc-nav-1 {
-        display: none;
+        display: none!important;
     }
     
     #sli-div-box .carousel-item {
