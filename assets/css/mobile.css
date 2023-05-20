@@ -3,6 +3,9 @@
     .client-box > a, .client-box1 > a, .client-box2 > a {
         width: 255px;
     }
+    #sli-div-box .carousel-item {
+        height: 840px;
+    }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
