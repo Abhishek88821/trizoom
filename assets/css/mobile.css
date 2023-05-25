@@ -20,6 +20,24 @@
     .title {
         width: 670px;
     }
+
+    .sli-div-inn .carousel-item {
+        height: 580px!important;
+    }
+    
+    .sli-div-inn .sli-div-cnt {
+        margin-top: 100px;
+    }
+    .sli-div-inn  .sli-div-cnt h2 {
+        font-size: 50px;
+        font-weight: 700;
+        letter-spacing: var(--ls);
+    }
+    .breadcrumbs, .breadcrumbs a {
+        color: #fff!important;
+        letter-spacing: var(--ls);
+    }
+
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 991px) {

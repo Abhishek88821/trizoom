@@ -334,6 +334,16 @@ a {
 
 /* about start */
 
+.abt-div-img {
+    background: #f4faff;
+    padding: 15px;
+    position: relative;
+}
+
+.abt-div-img > img {
+    border: 2px solid #d7edff;
+}
+
 .abt-div-cnt p, .why-div-cnt {
     color: var(--text);
     font-size: 18px;
