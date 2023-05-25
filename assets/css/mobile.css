@@ -1,4 +1,5 @@
 
+
 @media only screen and (max-width: 1500px) and (min-width: 1201px) {
     .client-box > a, .client-box1 > a, .client-box2 > a {
         width: 255px;
@@ -16,6 +17,9 @@
     .hc-offcanvas-nav.hc-nav-1 {
         display: none!important;
     }   
+    .title {
+        width: 670px;
+    }
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
@@ -23,6 +27,10 @@
         height: 700px;
         object-fit: cover;
         object-position: center center;
+    }
+
+    .foo-div-box-1 .foo-div-box-1-lst:last-child {
+        width: 250px;
     }
     
     .hc-offcanvas-nav.hc-nav-1 {
@@ -78,8 +86,14 @@
     }
 
     .foo-div-box-1-lst ul > li > a {
-        white-space: nowrap;
+        white-space: normal;
+        display: flex;
     }
+    .foo-div-box-1-lst ul > li > a {
+        white-space: normal;
+        display: flex
+    }
+
     .foo-div-box-1-lst ul {
         border-left-width: 1px;
     }
@@ -207,6 +221,11 @@
 
     .foo-div-box-1-lst {
         width: 200px;
+    }
+
+    .foo-div-box-1 .foo-div-box-1-lst:last-child {
+        width: 230px;
+        margin-left: 25px;
     }
 
     .client-box > a, .client-box1 > a, .client-box2 > a {
@@ -495,11 +514,11 @@
         font-size: 16px;
     }
 
-    .foo-copy-div span, .foo-copy-div a,  .title-count{
+    .foo-copy-div span, .foo-copy-div a,.reach-us-div span,  .title-count{
         font-size: 15px;
     }
 
-    .menu-div-lst > ul > li > a,.foo-div-box-1-lst-btn, .abt-div-cnt p,  .why-div-cnt, .abt-lnk,  .ser-div-cnt p, .ser-div-cnt a, .frm-submit-btn, .tes-div-cnt p, .foo-div-img + p, .foo-div-box-1-lst ul > li > a{
+    .reach-us-div p, .menu-div-lst > ul > li > a,.foo-div-box-1-lst-btn, .abt-div-cnt p,  .why-div-cnt, .abt-lnk,  .ser-div-cnt p, .ser-div-cnt a, .frm-submit-btn, .tes-div-cnt p, .foo-div-img + p, .foo-div-box-1-lst ul > li > a{
         font-size: 16px;
     }
     .sli-div-cnt > span {
@@ -513,12 +532,17 @@
         font-size: 18px;
     }
 
+    
     .title {
         font-size: 25px;
     }
 
  
     /* font size end */
+
+    .foo-div-box-1-lst ul > li > a {
+        padding-left: 0;
+    }
 
     .foo-div-box-1 {
         flex-wrap: wrap;
@@ -717,9 +741,10 @@
         margin-bottom: 0;
     }
     .foo-copy-div span, .foo-copy-div a {
-        padding: 2px 0;
+        padding: 3px 15px;
         text-align: center;
         display: block;
+        border-radius: 12px;
     }
 
     
