@@ -800,7 +800,7 @@ opacity: .8;
     color: #ffffff8c;
     transition: var(--ts);
 }
-.reach-us-div i:hover{
+.reach-us-div li:hover i{
     color: #fff;
 }
 
