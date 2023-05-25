@@ -785,7 +785,7 @@ opacity: .8;
 .reach-us-div a {
     padding-bottom: 10px;
 }
-
+/* 
 .reach-us-div i.fa-location-dot {
     color: #00baad;
 }
@@ -795,8 +795,12 @@ opacity: .8;
 .reach-us-div i.fa-envelope {
     color: #b8005d;
 }
-
-.reach-us-div i.fa-id-card {
+ */
+.reach-us-div i{
+    color: #ffffff8c;
+    transition: var(--ts);
+}
+.reach-us-div i:hover{
     color: #fff;
 }
 
