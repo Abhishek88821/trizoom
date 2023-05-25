@@ -46,6 +46,9 @@
         object-fit: cover;
         object-position: center center;
     }
+        .sli-div-inn #sli-div-box .carousel-item {
+    height: 490px;
+} 
 
     .foo-div-box-1 .foo-div-box-1-lst:last-child {
         width: 250px;
@@ -215,6 +218,9 @@
         object-fit: cover;
         object-position: center center;
     }
+    .sli-div-inn #sli-div-box .carousel-item {
+    height: 490px;
+} 
 
     .dig-ser-div, .client-div {
         padding-top: 0;
@@ -381,6 +387,9 @@
     .abt-div .row {
         flex-direction: column-reverse;
     }
+   .sli-div-inn #sli-div-box .carousel-item {
+    height: 250px;
+}
 
     .hea-div, .hea-div-box {
         display: none;
