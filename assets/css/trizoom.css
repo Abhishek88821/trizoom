@@ -1994,3 +1994,177 @@ background-image: linear-gradient(145deg, #072430, #203f4e);
     letter-spacing: var(--ls);
 }
 /* breadcrumbs end */
+
+/* sub title start */
+.sub-title {
+    font-size: 24px;
+    color: var(--title);
+    font-weight: 700;
+}
+/* sub title end */
+
+/* form start */
+.form-submit-resume label {
+    color: #32375b;
+    font-size: 16px;
+    letter-spacing: .5px;
+    font-weight: 700;
+    font-family: var(--fontH);
+}
+
+.form-submit-resume .form-control {
+    margin-top: 8px;
+    font-size: 16px;
+    height: 45px;
+    border: 2px solid #ced4daa6;
+}
+
+textarea.form-control {
+    height: 150px!important;
+}
+
+#chk-inp {
+    width: 15px;
+    height: 15px;
+    margin-top: 8px;
+}
+
+#chk-inp + p  {
+    font-size: 16px;
+    margin-top: 0px;
+    letter-spacing: var(--ls);
+    font-weight: 300;
+    color: #a1a1a1;
+}
+#chk-inp + p > a {
+    font-size: 16px;
+    margin-top: 0px;
+    letter-spacing: var(--ls);
+    font-weight: 300;
+}
+
+#file-upd {
+    position: absolute;
+    top: -8px;
+    height: 100%;
+    left: 0;
+    opacity: 0;
+}
+#file-upd + span {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: var(--ls);
+    color: var(--primary);
+}
+.upload-resume-local{
+    background: var(--forth);
+    color: #fff;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 10px 35px;
+    border-radius:  var(--br);
+}
+.upload-resume-local + p {
+    font-size: 16px;
+    text-align: center;
+    color: #9c9c9c;
+    font-weight: 300;
+}
+
+.form-submit-resume label + span {
+    font-size: 15px;
+    letter-spacing: var(--ls);
+    color: #636363;
+    margin: 6px 0 15px;
+    display: block;
+}
+
+.resume-file-upload-here {
+    border: 2px dashed #ced4daa6;
+    border-radius:  var(--br);
+    padding: 30px;
+    display: grid;
+}
+.resume-right-box {
+    background: #f6f7f8!important;
+    padding: 40px;
+    margin: 0 30px 30px;
+}
+.resume-right-box-1 h3 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--title);
+    letter-spacing: var(--ls);
+    margin-bottom: 20px;
+}
+
+.resume-right-box-1 .reach-us-div a {
+    padding-bottom: 15px;
+}
+
+.resume-right-box-1 {
+    border-radius: var(--br);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.resume-img-box{
+    margin: 0 30px 30px;
+}
+
+.resume-right-box-1 h4 > strong {
+    font-weight: 800;
+    color: #322c68;
+}
+
+.resume-right-box-1 h4 {
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: var(--ls);
+    color: #D81B60;
+    margin-left: 12px;
+    line-height: 24px;
+}
+
+.resume-right-box-1 .reach-us-div i {
+    color: var(--text);
+}
+.resume-right-box-1 .reach-us-div li:hover i {
+    color: var(--forth);
+}
+
+.resume-right-box-1 p {
+        font-size: 16px;
+        color: var(--text);
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: var(--ls);
+    }
+
+.resume-right-box-1 p img {
+    width: 70px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.resume-img-box {
+    margin: 0 30px 30px;
+}
+.resume-img-box img {
+box-shadow: -12px 10px 20px #3333331c;
+}
+
+#resme-sumbit-btn {
+    padding: 12px 40px;
+    background: var(--secondary);
+    color: #fff;
+    position: relative;
+    border: none;
+    display: block;
+    font-size: 18px;
+    width: fit-content;
+    margin-top: 10px;
+}
+
+/* form end */
