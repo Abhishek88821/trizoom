@@ -473,8 +473,9 @@
 
     .sli-div-box {
         width: 540px;
-        top: 75px;
-    }
+        top: 50%;
+        transform: translate(0%, -50%);
+        }
 
     #sli-div-box .carousel-item {
         height: 450px;
@@ -681,7 +682,8 @@
     }
 
     .abt-div-img  {
-        padding: 0 20px;
+        padding: 20px;
+        margin-bottom: 20px;
     }
 
     .sli-div-btn {
@@ -694,8 +696,9 @@
 
     .sli-div-box {
         width: 340px;
-        top: 58px;
-    }
+        top: 50%;
+        transform: translate(0%, -50%);
+        }
 
     .sli-div-cnt > span {
         font-size: 15px;
