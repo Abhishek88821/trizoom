@@ -5,11 +5,14 @@
         width: 255px;
     }
     #sli-div-box .carousel-item {
-        height: 840px;
- 
+        height: 750px;
     }
+
+
        #sli-div-box .carousel-item > img {
-        height: 100%;
+        height: 750px;
+        object-fit: cover;
+        object-position: top;
     }
 }
 
@@ -18,7 +21,7 @@
         display: none!important;
     }   
     .title {
-        width: 640px;
+        width: 670px;
     }
 
     .sli-div-inn .carousel-item {
@@ -202,6 +205,7 @@
     .sli-div-box {
         top: 270px;
         width: 700px;
+        left: 110px;
     }
     .sli-div-btn {
         padding: 15px 30px;
@@ -289,6 +293,7 @@
     }    
     .sli-div-box {
         width: 700px;
+        left: 110px;
     }
     
     #sli-div-box .carousel-item {
@@ -399,6 +404,21 @@
     .abt-div .row {
         flex-direction: column-reverse;
     }
+
+    .sli-div-box {
+        left: 110px;
+    }
+
+    .nav-div-img::before {
+        content: '';
+        position: absolute;
+        width: 1px;
+        height: 62px;
+        background: linear-gradient(45deg, white, #9d9d9d4d, white);
+        top: 10px;
+        right: -40px;
+    }
+
    .sli-div-inn #sli-div-box .carousel-item {
     height: 250px;
 }
@@ -561,22 +581,22 @@
 
      /* font size start */
      .hea-div a{
-        font-size: 16px;
-    }
-
-    .foo-copy-div span, .foo-copy-div a,.reach-us-div span,  .title-count{
         font-size: 15px;
     }
 
+    .foo-copy-div span, .foo-copy-div a,.reach-us-div span,  .title-count{
+        font-size: 14px;
+    }
+
     .reach-us-div p, .menu-div-lst > ul > li > a,.foo-div-box-1-lst-btn, .abt-div-cnt p,  .why-div-cnt, .abt-lnk,  .ser-div-cnt p, .ser-div-cnt a, .frm-submit-btn, .tes-div-cnt p, .foo-div-img + p, .foo-div-box-1-lst ul > li > a{
-        font-size: 16px;
+        font-size: 15px;
     }
     .sli-div-cnt > span {
-        font-size: 17px;
+        font-size: 16px;
         font-weight: 400;
     }
     .ser-div-cnt > h3, .foo-div-box-1-lst h5, .foo-div-box-1-lst > h4 {
-        font-size: 17px;
+        font-size: 16px;
     }
     .clt_div-box-home-03 h6 a, .clt_div-box-home-03-back h6 a > span:last-child, .tes-div-nme h5 {
         font-size: 18px;
@@ -584,7 +604,7 @@
 
     
     .title {
-        font-size: 25px;
+        font-size: 20px;
     }
 
  
@@ -646,6 +666,10 @@
 @media only screen and (max-width: 568px) {
     body, html{
         overflow-x: hidden;
+    }
+
+    .sli-div-box {
+        left: 15px;
     }
 
     .resume-right-box {
