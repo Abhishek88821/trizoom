@@ -229,6 +229,17 @@ a {
     z-index: 1;
 } */
 
+.sli-div-inn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: #ffffffb0;
+}
+
 /* #sli-div-box .carousel-item {
     height: 100vh;
 } */
@@ -454,6 +465,10 @@ section#abt-div::before {
     margin-top: 30px;
     letter-spacing: var(--ls);
     border-bottom: 2px solid #0061a3;
+}
+
+.btn-submit:hover {
+    border-bottom: 2px solid #b30f25;
 }
 
 /* about end */
