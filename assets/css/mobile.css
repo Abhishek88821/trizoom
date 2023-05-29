@@ -386,10 +386,11 @@
 
     /* font size end */
     .get-started {
-        background: var(--secondary);
+        background: var(--primary);
         color: #fff;
         font-family: var(--fontH)!important;
         padding: 12px 30px 13px;
+        border-bottom: 2px solid #009bb3;
         font-weight: 500;
         font-size: 16px!important;
     }
