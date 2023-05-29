@@ -365,23 +365,23 @@
 
     /* font size start */
     .title-count{
-        font-size: 16px;
+        font-size: 15px;
     }
     .hea-div a,.sli-div-btn, .menu-div-lst > ul > li > a, .abt-div-cnt p,  .why-div-cnt, .abt-lnk,  .ser-div-cnt p, .ser-div-cnt a, .frm-submit-btn, .tes-div-cnt p, .foo-div-img + p, .foo-div-box-1-lst ul > li > a{
-        font-size: 17px;
+        font-size: 16px;
     }
     .sli-div-cnt > span  { 
-        font-size: 18px;
+        font-size: 17px;
     }
     .ser-div-cnt > h3, .foo-div-box-1-lst h5 {
-        font-size: 19px;
+        font-size: 18px;
     }
     .scroll-element-icon > a, .clt_div-box-home-03 h6 a, .clt_div-box-home-03-back h6 a > span:last-child, .tes-div-nme h5,  .foo-div-box-1-lst > h4 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .title {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     /* font size end */
@@ -389,9 +389,9 @@
         background: var(--secondary);
         color: #fff;
         font-family: var(--fontH)!important;
-        padding: 20px 40px;
+        padding: 12px 30px 13px;
         font-weight: 500;
-        font-size: 17px!important;
+        font-size: 16px!important;
     }
     .abt-div-img {
         width: 470px;
