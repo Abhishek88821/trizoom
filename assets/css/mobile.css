@@ -44,7 +44,7 @@
     .sli-div-inn .carousel-item > img {
         height: 250px;
         object-fit: cover;
-        object-position: center -220px;
+        object-position: center -318px;
     }
     .sli-div-inn::before {
         content: '';
@@ -73,7 +73,7 @@
 
 @media only screen and (max-width: 1200px) and (min-width: 991px) {
     .sli-div::before, #sli-div-box .carousel-item > img, #sli-div {
-        height: 700px;
+        height: 450px;
         object-fit: cover;
         object-position: center center;
     }
@@ -93,10 +93,10 @@
 
     
         .sli-div-inn #sli-div-box .carousel-item {
-    height: 490px;
+    height: 250px;
 } 
 .sli-div-inn::before {
-    height: 490px;
+    height: 250px;
 }
 
     .foo-div-box-1 .foo-div-box-1-lst:last-child {
@@ -302,14 +302,15 @@
     .sli-div-inn .sli-div-box {
         z-index: 2;
         top: 50%;
+        transform: translate(0%, -50%);
     }
 
     .sli-div-inn::before {
-        height: 490px;
+        height: 250px;
     }
 
     .sli-div-inn #sli-div-box .carousel-item {
-    height: 490px;
+    height: 250px;
 } 
 
     .dig-ser-div, .client-div {
@@ -375,6 +376,10 @@
 
    .sli-div-inn .sli-div-cnt h2 {
         color: var(--title);
+    }
+
+  .sli-div-inn  .sli-div-cnt h2 {
+        margin-bottom: 20px;
     }
 
     .sli-div-cnt h2 {
@@ -535,7 +540,11 @@
         display: none;
     }
 
-    section#abt-div::before {
+    section#abt-div .abt-div-img::before{
+        display: none;
+    }
+
+        section#abt-div::before {
         content: '';
         position: absolute;
         bottom: 91px;
@@ -815,8 +824,22 @@
         overflow-x: hidden;
     }
 
-    .sli-div-box {
+    #sli-div-box button > i {
+        display: none;
     }
+
+    .team-contact > ul > li span {
+        display: none;
+    }
+
+.team-div-img {
+float: none!important;
+}
+
+.team-div-box {
+    margin-top: -30px;
+    padding: 50px 20px 70px;
+}
 
     .resume-right-box {
         padding: 20px;
@@ -898,7 +921,7 @@
     }
     
      .sli-div-inn  #sli-div-box .carousel-item {
-        height: 220px;
+        height: 200px;
     }
     
     #sli-div-box .carousel-item > img{
