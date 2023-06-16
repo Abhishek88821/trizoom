@@ -273,7 +273,7 @@
                         <div class="broucher-form position-absolute">
                             <h3>Enquiry Form</h3>
                             <span>Please fill out the form and download the brochure</span>
-                            <form class="" action="" method="">
+                            <form class="" action="enquiry.php" method="post">
                                 <div class="broucher-form-inp">
                                     <label for="name">
                                         Name<span>*</span>
@@ -293,7 +293,7 @@
                                     <input type="text" class="form-control" id="phone" name="phone" required="" />
                                 </div>
                                 <div class="broucher-form-btn">
-                                    <input type="submit" class="form-btn" id="submit-btn" value="Submit" />
+                                    <button type="submit" class="btn btn-danger"  value="Submit">Submit</button>
                                 </div>
                             </form>
                         </div>
@@ -470,7 +470,7 @@
                     $("#phone").focus();
                     return;
                 }
-                window.open("assets/broucher.pdf", "_blank");
+             //   window.open("assets/broucher.pdf", "_blank");
                 $("#name").val('');
                 $("#email").val('');
                 $("#phone").val('');
