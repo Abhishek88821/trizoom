@@ -24,11 +24,9 @@ $mail->IsHTML(true);
 $mail->Username = "smtp@pankajkaushik.com";
 $mail->Password = "<ngd97Dq@";
 $mail->SetFrom('smtp@pankajkaushik.com', "Aspire India");
-// $mail->AddReplyTo("info@trizoom.co.in", "TRIZOOM"); 
-// $mail->AddAddress('info@trizoom.co.in',"TRIZOOM");
+$mail->AddReplyTo("info@trizoom.co.in", "TRIZOOM"); 
+$mail->AddAddress('info@trizoom.co.in',"TRIZOOM");
 
-$mail->AddReplyTo("abhishek@aspireindia.com", "TRIZOOM"); 
-$mail->AddAddress('abhishek@aspireindia.com',"TRIZOOM");
 
 
 $mail->Subject    = "Enquiry details ";
